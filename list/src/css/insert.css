@@ -1,0 +1,96 @@
+.box-insert {
+  border: 2px solid#173f5f;
+  border-radius: 5px;
+  margin: 0px 20px;
+  display: flex;
+  padding: 10px 5px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #f2faef;
+}
+.label-ti {
+  width: 300px;
+
+  padding: 10px 10px;
+  margin: 0px 10px;
+  color: #f2faef;
+}
+.label-do {
+  width: 300px;
+
+  padding: 10px 10px;
+  margin: 0px 10px;
+}
+.label-ti label {
+  font-family: sans-serif, monospace;
+  font-size: 20px;
+  color: #f2faef;
+}
+.label-do label {
+  font-family: sans-serif, monospace;
+  font-family: 20px;
+  color: #f2faef;
+}
+.label-ti label input {
+  padding: 5px 20px;
+  outline: none;
+  border: none;
+  color: #f2faef;
+}
+.text {
+  width: 200px;
+  height: 100%;
+  padding: 12px 20px;
+  color: #f2faef;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #f2faef;
+}
+.a {
+  background-color: rgb(60, 174, 163);
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  color: #f2faef;
+  font-family: sans-serif, monospace;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.e {
+  background-color: rgb(246, 213, 92);
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  color: #f2faef;
+  font-family: sans-serif, monospace;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.d {
+  background-color: rgb(237, 85, 59);
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  color: #f2faef;
+  font-family: sans-serif, monospace;
+  margin: 10px 0px;
+  cursor: pointer;
+}

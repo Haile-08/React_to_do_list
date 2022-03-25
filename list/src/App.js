@@ -6,8 +6,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Insert />
-        <View />
+        <div className="box-body">
+          <Insert />
+          <View />
+        </div>
       </header>
     </div>
   );

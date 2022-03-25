@@ -1,0 +1,47 @@
+.box-view {
+  border: 2px solid#173f5f;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+.fbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.text-t {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+}
+.ttext {
+  margin: 0px 10px;
+
+  padding: 3px 10px;
+  width: 300px;
+}
+.ptext {
+  margin: 0px 10px;
+
+  padding: 40px 10px;
+  width: 300px;
+}
+.btns-v {
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.btns-v button {
+  background-color: rgb(237, 85, 59);
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  color: aliceblue;
+  font-family: sans-serif, monospace;
+  margin: 10px 0px;
+  cursor: pointer;
+}
