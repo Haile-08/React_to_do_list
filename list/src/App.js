@@ -17,7 +17,8 @@ function App() {
   };
 
   const delethandle = (id) => {
-    const newlist = list.splice(id, 1);
+    console.log(id);
+    let newlist = list.filter((v, index) => index != id);
     setList(newlist);
   };
   return (

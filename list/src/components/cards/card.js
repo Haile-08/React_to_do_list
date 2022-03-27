@@ -2,6 +2,10 @@ import React from "react";
 import "../../css/view.css";
 
 function Card(props) {
+  const removehandle = (i) => {
+    props.delete(i);
+  };
+
   return (
     <div className="fbox">
       <div className="text-t">
@@ -9,7 +13,7 @@ function Card(props) {
         <p className="ptext"> {props.item.do}</p>
       </div>
       <div className="btns-v">
-        <button onClick={() => props.delete(props.id)}>Delete</button>
+        <button onClick={() => removehandle(props.id)}>Delete</button>
       </div>
     </div>
   );

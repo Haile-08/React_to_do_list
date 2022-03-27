@@ -1,13 +1,14 @@
 .box-view {
-  border: 2px solid#173f5f;
-  border-radius: 5px;
   padding: 10px 10px;
   margin: 10px 10px;
 }
 .fbox {
+  border: 2px solid#173f5f;
+  border-radius: 5px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 10px;
 }
 .text-t {
   display: flex;

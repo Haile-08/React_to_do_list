@@ -68,18 +68,7 @@
   margin: 10px 0px;
   cursor: pointer;
 }
-.e {
-  background-color: rgb(246, 213, 92);
-  width: 100px;
-  height: 40px;
-  outline: none;
-  border: none;
-  border-radius: 2px;
-  color: #f2faef;
-  font-family: sans-serif, monospace;
-  margin: 10px 0px;
-  cursor: pointer;
-}
+
 .d {
   background-color: rgb(237, 85, 59);
   width: 100px;

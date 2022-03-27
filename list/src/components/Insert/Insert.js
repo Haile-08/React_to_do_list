@@ -3,6 +3,10 @@ import React, { useState } from "react";
 import "../../css/insert.css";
 
 function Insert(props) {
+  const [temp, settemp]= useState({
+       title:"",
+       do:""
+  })
   const [note, setnote] = useState({
     title: "",
     do: "",
@@ -22,6 +26,7 @@ function Insert(props) {
                 Title:
                 <input
                   type="text"
+                  
                   onChange={(e) => setnote({ ...note, title: e.target.value })}
                 />
               </label>
@@ -45,8 +50,8 @@ function Insert(props) {
             <button className="a" onClick={onsubmit}>
               ADD
             </button>
-            <button className="e">Edit</button>
-            <button className="d">Delete</button>
+
+            <button className="d" onClick={()=> }>Delete</button>
           </div>
         </div>
       </div>
